@@ -1,0 +1,51 @@
+.games-app {
+    width: min(90%, 480px);
+    margin: auto;
+}
+
+.ttt-game-board {
+    width: min(90%, 400px);
+    margin: auto;
+}
+
+.ttt-game-board .tiles-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    aspect-ratio: 1/1;
+    gap: 16px;
+    margin: auto
+}
+
+.ttt-game-board .tiles-container .tile {
+    aspect-ratio: 1/1;
+    width: 100%;
+    cursor: pointer;
+    background-color: beige;
+    border-radius: 10%;
+}
+
+.blue, .pink{
+    font-weight: bold;
+}
+
+.blue{
+    color: #347DC1;
+}
+
+.pink{
+    color: #CC6594;
+}
+
+.X {
+    background-color: #347DC1 !important;
+}
+
+.O {
+    background-color: #CC6594 !important;
+}
+
+.info-text {
+    padding: 24px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
